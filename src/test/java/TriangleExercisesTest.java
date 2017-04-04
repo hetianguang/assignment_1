@@ -16,4 +16,11 @@ public class TriangleExercisesTest {
 
         assertEquals(Triangle_Exercises.drawAhorizontalLine(N),"********");
     }
+
+    @Test
+    public void Given_a_number_n_and_print_n_lines_each_with_one_asterisks() {
+        int N = 3;
+
+        assertEquals(Triangle_Exercises.Draw_a_vertical_line(N),"*\n*\n*");
+    }
 }
