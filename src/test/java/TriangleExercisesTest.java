@@ -23,4 +23,11 @@ public class TriangleExercisesTest {
 
         assertEquals(Triangle_Exercises.Draw_a_vertical_line(N),"*\n*\n*");
     }
+
+    @Test
+    public void Given_a_number_n_print_n_lines_each_with_one_more_asterisk_than_the_last() {
+        int N = 3;
+
+        assertEquals(Triangle_Exercises.DrawaRightTriangle(N),"*\n**\n***");
+    }
 }

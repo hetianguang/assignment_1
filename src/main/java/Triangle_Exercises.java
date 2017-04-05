@@ -18,4 +18,18 @@ public class Triangle_Exercises {
         }
         return result+printAsterisk();
     }
+
+    public static String DrawaRightTriangle(int n) {
+        String result = "";
+        for(int i = 1; i <= n; i++) {
+            for(int j = 0; j < i; j++) {
+            result += printAsterisk();
+            }
+            if(i == n) {
+                return result;
+            }
+            result += "\n";
+        }
+        return result;
+    }
 }
